@@ -210,6 +210,11 @@ p.description {
 }
 
 @media (min-width: 600px) {
+
+  body {
+    padding-block: 10rem;
+  }
+
   main {
     grid-template-rows: repeat(2, minmax(min-content, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
