@@ -212,7 +212,7 @@ p.description {
 @media (min-width: 600px) {
   main {
     grid-template-rows: repeat(2, minmax(min-content, 1fr));
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-template-areas: "card-1 card-1 card-2 card-5"
                          "card-3 card-4 card-4 card-5";
     max-width: 1200px;
